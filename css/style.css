@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background: linear-gradient(135deg,#0f0f0f,#1a1a1a);
+  color: #0f0;
+}
+
+.bg {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+  background:#000;
+}
+
+.container {
+  padding:20px;
+}
+
+.card {
+  background:#111;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 15px #0f0;
+}
+
+button {
+  padding:10px 15px;
+  margin:10px 5px;
+  background:#0f0;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+input {
+  display:block;
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  background:#000;
+  border:1px solid #0f0;
+  color:#0f0;
+}
+
+.avatar {
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+.avatar.big {
+  width:120px;
+  height:120px;
+}
+
+.center {
+  text-align:center;
+}
