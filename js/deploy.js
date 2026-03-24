@@ -10,7 +10,7 @@ window.deploy = async () => {
     return;
   }
 
-  const subdomain = name.toLowerCase().replace(/\s+/g, "-") + ".mysubdomain.vercel.app";
+  const subdomain = name.toLowerCase().replace(/\s+/g, "-") + ".anugahostingz.wildheavenbeach.xyz";
 
   await addDoc(collection(db, "projects"), {
     uid: auth.currentUser.uid,
